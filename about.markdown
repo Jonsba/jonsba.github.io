@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is my blog
+This is my blog.
