@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Time for a new document editor?"
+title:  "Part 1: Time for a new document editor?"
 ---
 
 <!---
@@ -8,7 +8,7 @@ your comment goes here
 and here
 -->
 
-# Introduction
+## Introduction
 
 When it comes to document editing, there are 2 usual approaches:
 
@@ -23,7 +23,7 @@ I was once writing an over 60 pages semester project report with multiple figure
 
 Some time later, I discovered ModernCV, a LaTeX package that enables to write good-looking CVs. So I spent some time learning the basics about LaTeX and wrote my CV with this package. Over the time, I made some content modification without needing to make fundamental changes, but recently after getting some feedback, I decided to change its structure. As you can guess, it wasn't an easy task, especially after a long time without digging into LaTeX.
 
-# What about a new document editor?
+## What about a new document editor?
 
 So I had a pretty frustrating experience with the edition of documents that are more than a simple structured document with a few pages. Frustration can be a good thing if you allow it to make you enter a thinking process to discover how things could be better, and then to make change happen. Now I am thinking about designing a new document editor that will be both powerful and  easy to use, so that the user can stay productive instead of being distracted with things like alignment issues or by a document processor that makes simple things complex. This is not just a recent whim that I have, as 3 years ago, I already had [some thoughts about a better document editor](https://jonas17b.wixsite.com/monsite/post/wysiwym-editor-on-top-of-context-lout).
 
@@ -33,7 +33,7 @@ What criteria should such a document editor fulfil so that it could be called a 
 2. It should be also designed for creating documents with a complex structure (like the CV example below).
 3. It is intuitive to use, so that the user can write a document with almost no time needed to search on how to do things.
 
-# How to have an intuitive user interface ?
+## How to have an intuitive user interface ?
 
 While doing object-oriented programming, I learnt that the closer my modelling is to the real world, the simpler and more powerful will the architecture of my software will be. And while working as a Business Analyst, a.k.a. Requirements Engineer, I learnt that I first need to understand what is the mental representation the user has about the steps he has to accomplish in his task. Only then can we design a user interface that will be both intuitive and powerful.
 
@@ -53,8 +53,9 @@ This is how document creation usually works:
 
 In order to accomplish the 2nd point, there can be a lot of time needed to learn the concepts of the software, and/or to find hacks to force the software to produce the desired output. Why not to enable the user to design a document in a way that is much closer to his mental representation? There could be so much time spared!
 
-# What comes next?
+## What comes next?
 
 My plan is first to make a prototype that implements the exposed ideas. Like LyX, it will use one of the TeX based document processor as a backend, so that the user can benefit from its quality and power, while having an intuitive interface that doesn't unnecessarily expose the complexity under the hood. Once this prototype is done, I will have a better picture of the amount of work the development of such an editor requires. Then I could make a decision whether to proceed further or not.
 
-In my next (coming soon) article, I will show some mockups to give a better picture on how it will look like to write a document with such an editor and explain what are for me the most important considerations for the user interface.
+
+In [my next article](../../../2020/09/25/some-mockups.html), I will show some mockups to give a better picture on how it will look like to write a document with such an editor and explain what are for me the most important considerations for the user interface.
