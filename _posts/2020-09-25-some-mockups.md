@@ -79,4 +79,4 @@ I believe that such a user interface will make it easy to exploit the reliabilit
 
 ### What comes next?
 
-In my next article, I will explain the technical choices that I am going to make, as well as what I would like to implement in the prototype so that it can be a valid proof of concept.
+In [my next article](../../../2020/10/02/technical-choices-and-requirements-for-a-prototype.html), I will explain the technical choices that I am going to make, as well as what I would like to implement in the prototype so that it can be a valid proof of concept.
